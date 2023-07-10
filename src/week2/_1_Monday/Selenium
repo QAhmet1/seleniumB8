@@ -1,0 +1,10 @@
+What is the selenium ?
+1. Selenium is an open-source software testing framework primarily used for automating web browsers.
+2.  Selenium provides a suite of tools and libraries that enable
+developers and testers to automate the testing of web applications across different browsers and platforms.
+3. Selenium allows you to write test scripts in various programming languages,
+including Java, C#, Python, Ruby, and JavaScript.
+4. Selenium provides a consistent and reliable way to interact with web elements, perform actions, and verify expected outcomes.
+5. Selenium supports multiple browsers such as Chrome, Firefox, Safari, Internet Explorer, and Edge.
+6. Selenium has gained popularity due to its flexibility, extensibility, and active community support.
+7. Selenium is widely used in both small and large-scale projects for automating web testing tasks.
