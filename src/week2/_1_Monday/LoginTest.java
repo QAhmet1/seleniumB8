@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class Task1 {
+public class LoginTest {
     public static void main(String[] args)  {
         // how to create new selenium project?
         // How to define the selenium libraries?
@@ -28,7 +28,6 @@ public class Task1 {
         WebElement makeAppointmentBtn=driver.findElement(By.id("btn-make-appointment"));
         makeAppointmentBtn.click();
         WebElement username = driver.findElement(By.id("txt-username"));
-
         username.sendKeys("John Doe");
         WebElement password=driver.findElement(By.id("txt-password"));
         password.sendKeys("ThisIsNotAPassword");
@@ -38,7 +37,7 @@ public class Task1 {
             System.out.println(bookApp.getText());
             System.out.println("You logged in");
         }else {
-            System.out.println("attept failed");
+            System.out.println("attempt failed");
         }
 
         try {
